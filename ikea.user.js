@@ -49,7 +49,7 @@ function float2Price(val)
 
 $(window).ready(function() {
 
-    var propForScan = ["price1", "price2", "price3", "price4", "price5", "price6", "price7", "price8", "priceProdInfo"];
+//    var propForScan = ["price1", "price2", "price3", "price4", "price5", "price6", "price7", "price8", "priceProdInfo"];
 
     // меняем параметры прямо в массиве
     if (unsafeWindow.jProductData != undefined) $(unsafeWindow.jProductData.product.items).each(function(idx, e) {
